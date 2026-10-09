@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1000x200/0d1117/39FF14?text=GAMOSONE1+CODE+/+BUILD+/+IMPROVE+/+REPEAT" alt="Banner Gamosone1" width="850">
+  <img src="headerBanner.jpg" alt="Banner Gamosone1" width="100%">
 </div>
 
 <br>
@@ -19,7 +19,7 @@
 <p style="color: #9CA3AF;">Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones reales, aprender siempre y llevar mis ideas al siguiente nivel.</p>
 </td>
 <td width="150" align="center" style="border: none;">
-<img src="https://via.placeholder.com/150x100/0d1117/39FF14?text=💻+Neón" width="150">
+<img src="resultados_styled.svg" width="150">
 </td>
 </tr>
 </table>
