@@ -1,13 +1,11 @@
-<svg viewBox="0 0 650 220" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 350 200" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
       .seccion-titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; fill: #E5E7EB; }
       .card { fill: #0A0F16; stroke-width: 1.5px; rx: 12px; }
       .c1 { stroke: #39FF14; filter: drop-shadow(0px 0px 4px rgba(57, 255, 20, 0.4)); }
-      .c2 { stroke: #3B82F6; filter: drop-shadow(0px 0px 4px rgba(59, 130, 246, 0.4)); }
       .c3 { stroke: #EC4899; filter: drop-shadow(0px 0px 4px rgba(236, 72, 153, 0.4)); }
-      .c4 { stroke: #A855F7; filter: drop-shadow(0px 0px 4px rgba(168, 85, 247, 0.4)); }
       .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 14px; fill: #E5E7EB; text-anchor: middle;}
       .desc { font-family: 'Inter', sans-serif; font-size: 10px; fill: #9CA3AF; text-anchor: middle;}
       .btn { font-family: 'Inter', sans-serif; font-size: 9px; font-weight: 700;}
@@ -31,37 +29,13 @@
     <text x="92" y="127" class="btn" fill="#60A5FA" text-anchor="middle">PHP</text>
   </g>
 
-  <!-- P2 -->
+  <!-- P2 (FiveM) -->
   <g transform="translate(165, 35)">
-    <rect class="card c2" width="150" height="150" />
-    <text x="75" y="35" font-size="24" text-anchor="middle">📅</text>
-    <text x="75" y="60" class="title">clubreserva</text>
-    <text x="75" y="80" class="desc">Sistema reservas</text>
-    <text x="75" y="95" class="desc">y tienda online.</text>
-    
-    <rect x="55" y="115" width="35" height="18" rx="4" fill="#1e3a8a" stroke="#3b82f6"/>
-    <text x="72" y="127" class="btn" fill="#60A5FA" text-anchor="middle">PHP</text>
-  </g>
-
-  <!-- P3 -->
-  <g transform="translate(330, 35)">
     <rect class="card c3" width="150" height="150" />
     <text x="75" y="35" font-size="24" text-anchor="middle">🎮</text>
     <text x="75" y="60" class="title" fill="#EC4899">FiveM-Peru</text>
-    <text x="75" y="80" class="desc">Servidor roleplay</text>
-    <text x="75" y="95" class="desc">y eventos.</text>
-    
-    <rect x="55" y="115" width="35" height="18" rx="4" fill="#4c1d95" stroke="#8b5cf6"/>
-    <text x="72" y="127" class="btn" fill="#c4b5fd" text-anchor="middle">Lua</text>
-  </g>
-
-  <!-- P4 -->
-  <g transform="translate(495, 35)">
-    <rect class="card c4" width="150" height="150" />
-    <text x="75" y="35" font-size="24" text-anchor="middle">🧚</text>
-    <text x="75" y="60" class="title">MU-Season18</text>
-    <text x="75" y="80" class="desc">Proyecto de alas</text>
-    <text x="75" y="95" class="desc">y custom items.</text>
+    <text x="75" y="80" class="desc">Servidor roleplay y</text>
+    <text x="75" y="95" class="desc">scripts personalizados.</text>
     
     <rect x="55" y="115" width="35" height="18" rx="4" fill="#4c1d95" stroke="#8b5cf6"/>
     <text x="72" y="127" class="btn" fill="#c4b5fd" text-anchor="middle">Lua</text>

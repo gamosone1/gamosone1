@@ -1,4 +1,4 @@
-<svg viewBox="0 0 650 220" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 525 220" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
@@ -14,50 +14,50 @@
 
   <!-- Fila 1 -->
   <g transform="translate(0, 35)">
-    <rect class="card" x="0" y="0" width="205" height="75" />
+    <rect class="card" x="0" y="0" width="165" height="75" />
     <text x="10" y="25" font-size="18">☁️</text>
     <text x="35" y="23" class="box-title" fill="#60A5FA">Backend</text>
-    <text x="10" y="45" class="box-text">Laravel • PHP • C# • Java</text>
+    <text x="10" y="45" class="box-text">Laravel • PHP • Java</text>
     <text x="10" y="60" class="box-text">Node.js • .NET MVC</text>
   </g>
 
-  <g transform="translate(220, 35)">
-    <rect class="card" x="0" y="0" width="205" height="75" />
+  <g transform="translate(175, 35)">
+    <rect class="card" x="0" y="0" width="165" height="75" />
     <text x="10" y="25" font-size="18">🖥️</text>
     <text x="35" y="23" class="box-title" fill="#A855F7">Frontend</text>
-    <text x="10" y="45" class="box-text">HTML • CSS • JavaScript</text>
+    <text x="10" y="45" class="box-text">HTML • CSS • JS</text>
     <text x="10" y="60" class="box-text">Thymeleaf • Bootstrap</text>
   </g>
 
-  <g transform="translate(440, 35)">
-    <rect class="card" x="0" y="0" width="205" height="75" stroke="#39FF14" stroke-width="2" filter="drop-shadow(0 0 3px rgba(57,255,20,0.4))" />
+  <g transform="translate(350, 35)">
+    <rect class="card" x="0" y="0" width="165" height="75" stroke="#39FF14" stroke-width="2" filter="drop-shadow(0 0 3px rgba(57,255,20,0.4))" />
     <text x="10" y="25" font-size="18">🛢️</text>
-    <text x="35" y="23" class="box-title" fill="#39FF14">Bases de datos</text>
+    <text x="35" y="23" class="box-title" fill="#39FF14">DBs</text>
     <text x="10" y="45" class="box-text">MySQL • SQL Server</text>
     <text x="10" y="60" class="box-text">Aiven • Azure</text>
   </g>
 
   <!-- Fila 2 -->
   <g transform="translate(0, 125)">
-    <rect class="card" x="0" y="0" width="205" height="75" />
+    <rect class="card" x="0" y="0" width="165" height="75" />
     <text x="10" y="25" font-size="18">🛠️</text>
-    <text x="35" y="23" class="box-title" fill="#F59E0B">Herramientas</text>
+    <text x="35" y="23" class="box-title" fill="#F59E0B">Tools</text>
     <text x="10" y="45" class="box-text">Git • GitHub • Docker</text>
     <text x="10" y="60" class="box-text">VS Code • Linux</text>
   </g>
 
-  <g transform="translate(220, 125)">
-    <rect class="card" x="0" y="0" width="205" height="75" stroke="#A855F7" stroke-width="2" filter="drop-shadow(0 0 3px rgba(168,85,247,0.4))" />
+  <g transform="translate(175, 125)">
+    <rect class="card" x="0" y="0" width="165" height="75" stroke="#A855F7" stroke-width="2" filter="drop-shadow(0 0 3px rgba(168,85,247,0.4))" />
     <text x="10" y="25" font-size="18">📦</text>
     <text x="35" y="23" class="box-title" fill="#EC4899">Otros</text>
     <text x="10" y="45" class="box-text">XAMPP • Composer</text>
-    <text x="10" y="60" class="box-text">Visual Studio • DBeaver</text>
+    <text x="10" y="60" class="box-text">VS • DBeaver</text>
   </g>
 
-  <g transform="translate(440, 125)">
-    <rect class="card" x="0" y="0" width="205" height="75" />
+  <g transform="translate(350, 125)">
+    <rect class="card" x="0" y="0" width="165" height="75" />
     <text x="10" y="25" font-size="18">🚀</text>
-    <text x="35" y="23" class="box-title" fill="#3B82F6">Cloud &amp; Deploy</text>
+    <text x="35" y="23" class="box-title" fill="#3B82F6">Deploy</text>
     <text x="10" y="45" class="box-text">Azure • App Service</text>
     <text x="10" y="60" class="box-text">GitHub Actions</text>
   </g>
