@@ -1,18 +1,19 @@
 <div align="center">
-  <img src="headerBanner.png" alt="Banner Gamosone1" width="100%">
+  <img src="https://via.placeholder.com/1000x200/0d1117/39FF14?text=GAMOSONE1+CODE+/+BUILD+/+IMPROVE+/+REPEAT" alt="Banner Gamosone1" width="100%">
 </div>
 
 <br>
 
 <!-- INICIO DEL LAYOUT DE DOS COLUMNAS -->
-<table width="100%" style="border-collapse: collapse; border: none; background: #0D1117; color: white;">
+<table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none; background: #0D1117; color: white;">
 <tr style="border: none;">
 
 <!-- COLUMNA IZQUIERDA (65%) -->
-<td width="65%" valign="top" style="border: none; padding-right: 20px;">
+<td width="65%" valign="top" style="border: none; padding-right: 10px;">
 
-<table>
-<tr style="border: none; background: transparent;">
+<!-- Sub-tabla para alinear Hola soy Ghers con la imagen de la laptop -->
+<table width="100%" style="table-layout: fixed; border: none; background: transparent;">
+<tr style="border: none;">
 <td width="70%" style="border: none;">
 <h1>👋 Hola, soy Ghers</h1>
 <p style="color: #9CA3AF;">Bienvenido a mi perfil de GitHub</p>
