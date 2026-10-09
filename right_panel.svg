@@ -1,0 +1,26 @@
+<svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;display=swap');
+      .titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; fill: #E5E7EB; }
+      .item { font-family: 'Inter', sans-serif; font-size: 14px; fill: #9CA3AF; }
+      .cat-box { fill: #0A0F16; stroke: #A855F7; stroke-width: 2; filter: drop-shadow(0 0 6px rgba(168,85,247,0.6)); rx: 12; }
+      .cat-text { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 24px; fill: #A855F7; text-anchor: middle;}
+    </style>
+  </defs>
+  
+  <!-- Cat Box Neón (Simulación del gatito) -->
+  <rect class="cat-box" x="10" y="10" width="280" height="150" />
+  <text x="150" y="60" class="cat-text" style="filter: drop-shadow(0 0 4px #A855F7);">TÚ PUEDES</text>
+  <text x="150" y="95" class="cat-text">&lt;/&gt;</text>
+  <text x="150" y="140" font-size="45" text-anchor="middle">🐈‍⬛</text>
+
+  <!-- Actualmente Explorando -->
+  <text x="10" y="210" class="titulo">Actualmente explorando</text>
+  
+  <text x="10" y="240" font-size="14">❤️</text><text x="35" y="240" class="item">Laravel 12</text>
+  <text x="10" y="265" font-size="14">⚛️</text><text x="35" y="265" class="item">Vue.js / React</text>
+  <text x="10" y="290" font-size="14">🐳</text><text x="35" y="290" class="item">Azure / Docker</text>
+  <text x="10" y="315" font-size="14">🎮</text><text x="35" y="315" class="item">FiveM / NUI</text>
+  <text x="10" y="340" font-size="14">🤖</text><text x="35" y="340" class="item">IA y automatización</text>
+</svg>

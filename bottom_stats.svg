@@ -1,0 +1,49 @@
+<svg width="600" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      .box { fill: transparent; stroke: #1f2937; stroke-width: 1px; rx: 12px; }
+      .num { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 20px; fill: #E5E7EB; }
+      .lbl { font-family: 'Inter', sans-serif; font-size: 11px; fill: #9CA3AF; }
+      
+      .glow-bottom-1 { stroke: #a855f7; filter: drop-shadow(0 4px 4px rgba(168,85,247,0.5)); stroke-width: 2px;}
+      .glow-bottom-2 { stroke: #22c55e; filter: drop-shadow(0 4px 4px rgba(34,197,94,0.5)); stroke-width: 2px;}
+    </style>
+  </defs>
+
+  <!-- Box 1 -->
+  <g transform="translate(0, 10)">
+    <rect class="box" width="140" height="70" />
+    <path class="glow-bottom-1" d="M 12 70 L 128 70" />
+    <text x="25" y="35" font-size="20">📦</text>
+    <text x="60" y="35" class="num">17</text>
+    <text x="60" y="55" class="lbl">Repositorios</text>
+  </g>
+
+  <!-- Box 2 -->
+  <g transform="translate(150, 10)">
+    <rect class="box" width="140" height="70" />
+    <path class="glow-bottom-2" d="M 12 70 L 128 70" />
+    <text x="25" y="35" font-size="20">⭐</text>
+    <text x="60" y="35" class="num">25</text>
+    <text x="60" y="55" class="lbl">Stars recibidas</text>
+  </g>
+
+  <!-- Box 3 -->
+  <g transform="translate(300, 10)">
+    <rect class="box" width="140" height="70" />
+    <path class="glow-bottom-1" d="M 12 70 L 128 70" />
+    <text x="25" y="35" font-size="20">🔄</text>
+    <text x="60" y="35" class="num">2.8k</text>
+    <text x="60" y="55" class="lbl">Commits</text>
+  </g>
+
+  <!-- Box 4 -->
+  <g transform="translate(450, 10)">
+    <rect class="box" width="140" height="70" />
+    <path class="glow-bottom-2" d="M 12 70 L 128 70" />
+    <text x="25" y="35" font-size="20">🧩</text>
+    <text x="60" y="35" class="num">1.2k</text>
+    <text x="60" y="55" class="lbl">Contribuciones</text>
+  </g>
+</svg>

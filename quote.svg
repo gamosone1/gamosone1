@@ -1,0 +1,24 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      .box { fill: transparent; stroke-width: 2px; filter: drop-shadow(0 0 5px rgba(57,255,20,0.5)); rx: 12px; }
+      .box-gradient { stroke: url(#grad); }
+      .qtext { font-family: 'Inter', sans-serif; font-size: 14px; fill: #E5E7EB; font-weight: 600; text-anchor: middle;}
+      .qsub { font-family: 'Inter', sans-serif; font-size: 12px; fill: #9CA3AF; text-anchor: middle;}
+    </style>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#39FF14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect class="box box-gradient" x="10" y="10" width="280" height="130" />
+  <text x="25" y="35" font-size="20" fill="#39FF14">&lt;/&gt;</text>
+  
+  <text x="150" y="65" class="qtext">"Sueña en grande,</text>
+  <text x="150" y="85" class="qtext">codifica mejor."</text>
+  
+  <text x="200" y="115" class="qsub">- gamosone1</text>
+  <text x="260" y="115" font-size="16">🟢</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg width="650" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      .card { fill: #0A0F16; stroke: #1F2937; stroke-width: 1px; rx: 12px; }
+      .seccion-titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; fill: #E5E7EB; }
+      .box-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 14px; }
+      .box-text { font-family: 'Inter', sans-serif; font-size: 10px; fill: #9CA3AF; }
+    </style>
+  </defs>
+
+  <text x="0" y="20" font-size="18">💻</text>
+  <text x="25" y="18" class="seccion-titulo">Tecnologías que uso</text>
+
+  <!-- Fila 1 -->
+  <g transform="translate(0, 35)">
+    <rect class="card" x="0" y="0" width="205" height="75" />
+    <text x="10" y="25" font-size="18">☁️</text>
+    <text x="35" y="23" class="box-title" fill="#60A5FA">Backend</text>
+    <text x="10" y="45" class="box-text">Laravel • PHP • C# • Java</text>
+    <text x="10" y="60" class="box-text">Node.js • .NET MVC</text>
+  </g>
+
+  <g transform="translate(220, 35)">
+    <rect class="card" x="0" y="0" width="205" height="75" />
+    <text x="10" y="25" font-size="18">🖥️</text>
+    <text x="35" y="23" class="box-title" fill="#A855F7">Frontend</text>
+    <text x="10" y="45" class="box-text">HTML • CSS • JavaScript</text>
+    <text x="10" y="60" class="box-text">Thymeleaf • Bootstrap</text>
+  </g>
+
+  <g transform="translate(440, 35)">
+    <rect class="card" x="0" y="0" width="205" height="75" stroke="#39FF14" stroke-width="2" filter="drop-shadow(0 0 3px rgba(57,255,20,0.4))" />
+    <text x="10" y="25" font-size="18">🛢️</text>
+    <text x="35" y="23" class="box-title" fill="#39FF14">Bases de datos</text>
+    <text x="10" y="45" class="box-text">MySQL • SQL Server</text>
+    <text x="10" y="60" class="box-text">Aiven • Azure</text>
+  </g>
+
+  <!-- Fila 2 -->
+  <g transform="translate(0, 125)">
+    <rect class="card" x="0" y="0" width="205" height="75" />
+    <text x="10" y="25" font-size="18">🛠️</text>
+    <text x="35" y="23" class="box-title" fill="#F59E0B">Herramientas</text>
+    <text x="10" y="45" class="box-text">Git • GitHub • Docker</text>
+    <text x="10" y="60" class="box-text">VS Code • Linux</text>
+  </g>
+
+  <g transform="translate(220, 125)">
+    <rect class="card" x="0" y="0" width="205" height="75" stroke="#A855F7" stroke-width="2" filter="drop-shadow(0 0 3px rgba(168,85,247,0.4))" />
+    <text x="10" y="25" font-size="18">📦</text>
+    <text x="35" y="23" class="box-title" fill="#EC4899">Otros</text>
+    <text x="10" y="45" class="box-text">XAMPP • Composer</text>
+    <text x="10" y="60" class="box-text">Visual Studio • DBeaver</text>
+  </g>
+
+  <g transform="translate(440, 125)">
+    <rect class="card" x="0" y="0" width="205" height="75" />
+    <text x="10" y="25" font-size="18">🚀</text>
+    <text x="35" y="23" class="box-title" fill="#3B82F6">Cloud &amp; Deploy</text>
+    <text x="10" y="45" class="box-text">Azure • App Service</text>
+    <text x="10" y="60" class="box-text">GitHub Actions</text>
+  </g>
+</svg>
