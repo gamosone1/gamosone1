@@ -17,12 +17,11 @@
 <img align="right" src="resultados_styled.svg" width="120">
 </a>
 
-<h3>👋 Hola, soy Ghers</h3>
-<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIiIGZpbGw9IiMzMDM2M2QiLz48L3N2Zz4=" width="75%" height="2">
-<br><br>
+<h3><strong>👋 Hola, soy Ghers</strong></h3>
+<img src="line.svg" width="70%" height="2">
 
-<p style="color: #9CA3AF;">Bienvenido a mi perfil de GitHub</p>
-<p style="color: #9CA3AF;">Soy un desarrollador apasionado por la tecnología,<br>
+<p style="color: #9CA3AF;" align="left">Bienvenido a mi perfil de GitHub</p>
+<p style="color: #9CA3AF;" align="left">Soy un desarrollador apasionado por la tecnología,<br>
 enfocado en crear soluciones reales, aprender siempre y llevar<br>
 mis ideas al siguiente nivel.</p>
 
