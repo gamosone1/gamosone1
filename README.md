@@ -7,7 +7,6 @@
 
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr><td colspan="2"><img src="spacer.svg" height="1" style="max-width: 100%;"></td></tr>
 <tr>
 
 <!-- COLUMNA IZQUIERDA -->
