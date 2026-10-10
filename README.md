@@ -6,7 +6,7 @@
 
 
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#161b22" style="border-radius: 10px; padding: 20px;">
 <tr>
 
 <!-- COLUMNA IZQUIERDA -->
