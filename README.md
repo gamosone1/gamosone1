@@ -7,7 +7,7 @@
 
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr>
+<tr bgcolor="#161b22">
 
 <!-- COLUMNA IZQUIERDA -->
 <td width="60%" valign="top">
