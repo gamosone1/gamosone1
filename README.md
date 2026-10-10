@@ -12,15 +12,20 @@
 <!-- COLUMNA IZQUIERDA -->
 <td width="60%" valign="top">
 
-<a href="https://github.com/gamosone1">
-<img align="right" src="resultados_styled.svg" width="120" style="margin-left: 10px;">
-</a>
-
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="70%" valign="top">
 <h1>👋 Hola, soy Ghers</h1>
-<p style="color: #9CA3AF;">Bienvenido a mi perfil de GitHub</p>
-<p style="color: #9CA3AF;">Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones reales, aprender siempre y llevar mis ideas al siguiente nivel.</p>
-
-<br clear="both">
+<p style="color: #9CA3AF;" align="justify">Bienvenido a mi perfil de GitHub</p>
+<p style="color: #9CA3AF;" align="justify">Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones reales, aprender siempre y llevar mis ideas al siguiente nivel.</p>
+</td>
+<td width="30%" align="center" valign="top">
+<a href="https://github.com/gamosone1">
+<img src="resultados_styled.svg" width="120">
+</a>
+</td>
+</tr>
+</table>
 <br>
 <img src="tecnologias.svg" width="100%">
 
