@@ -9,24 +9,38 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
 
-<!-- COLUMNA SALUDO -->
-<td width="42%" valign="top">
-<h1>👋 Hola, soy Ghers</h1>
+<!-- COLUMNA IZQUIERDA -->
+<td width="60%" valign="top">
+
+<a href="https://github.com/gamosone1">
+<br>
+<img align="right" src="resultados_styled.svg" width="120">
+</a>
+
+<h3>👋 Hola, soy Ghers</h3>
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIiIGZpbGw9IiMzMDM2M2QiLz48L3N2Zz4=" width="75%" height="2">
+<br><br>
+
 <p style="color: #9CA3AF;">Bienvenido a mi perfil de GitHub</p>
 <p style="color: #9CA3AF;">Soy un desarrollador apasionado por la tecnología,<br>
 enfocado en crear soluciones reales, aprender siempre y llevar<br>
 mis ideas al siguiente nivel.</p>
-</td>
 
-<!-- COLUMNA IMAGEN RESULTADOS -->
-<td width="18%" align="center" valign="top">
-<a href="https://github.com/gamosone1">
-<img src="resultados_styled.svg" width="120">
-</a>
+<br clear="all">
+<br>
+<img src="tecnologias.svg" width="100%">
+
+<br><br>
+<img src="proyectos.svg" width="100%">
+
+<br><br>
+<img src="camino.svg" width="100%">
+
 </td>
 
 <!-- COLUMNA DERECHA -->
-<td width="40%" valign="top" rowspan="4">
+<td width="40%" valign="top">
+
 <h3 style="margin-top: 0; color: #E5E7EB;">Estadísticas de GitHub</h3>
 <img src="https://github-readme-stats.vercel.app/api?username=gamosone1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=22c55e&text_color=9ca3af&hide_title=true&hide_rank=true" width="100%" />
 
@@ -36,28 +50,7 @@ mis ideas al siguiente nivel.</p>
 
 <br><br><br>
 <img src="right_panel.svg" width="100%">
-</td>
 
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-<br>
-<img src="tecnologias.svg" width="100%">
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-<br><br>
-<img src="proyectos.svg" width="100%">
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-<br><br>
-<img src="camino.svg" width="100%">
 </td>
 </tr>
 </table>
