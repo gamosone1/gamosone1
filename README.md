@@ -20,8 +20,9 @@
 
 <p style="color: #9CA3AF;" align="justify">
 Bienvenido a mi perfil de GitHub<br>
-Soy un desarrollador apasionado por la tecnología,<br>
-enfocado en crear soluciones reales, aprender siempre y llevar<br>
+Soy un desarrollador apasionado
+<br> por la tecnología,<br>
+enfocado en crear soluciones reales, aprender <br> siempre y llevar
 mis ideas al siguiente nivel.
 </p>
 
