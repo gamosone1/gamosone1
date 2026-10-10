@@ -43,11 +43,11 @@ mis ideas al siguiente nivel.
 <td width="40%" valign="top">
 
 <h3 style="margin-top: 0; color: #E5E7EB;">Estadísticas de GitHub</h3>
-<img src="https://github-readme-stats.vercel.app/api?username=gamosone1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=22c55e&text_color=9ca3af&hide_title=true&hide_rank=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=gamosone1&show_icons=true&hide_border=true&bg_color=161b22&title_color=a855f7&icon_color=22c55e&text_color=9ca3af&hide_title=true&hide_rank=true" />
 
 <br><br>
 <h3 style="color: #E5E7EB;">Lenguajes más utilizados</h3>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamosone1&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=9ca3af&hide_title=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamosone1&hide_border=true&bg_color=161b22&title_color=a855f7&text_color=9ca3af&hide_title=true" />
 
 <br><br><br>
 <img src="right_panel.svg">
