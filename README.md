@@ -17,17 +17,11 @@
 <img align="right" src="resultados_styled.svg" width="120">
 </a>
 
-<h3>
-<strong>👋 Hola, soy Ghers</strong><br>
-<img src="line.svg" width="70%" height="2">
-</h3>
-
-<p style="color: #9CA3AF;" align="justify">
-Bienvenido a mi perfil de GitHub<br>
-Soy un desarrollador apasionado por la tecnología,<br>
-enfocado en crear soluciones reales, aprender siempre y llevar<br>
-mis ideas al siguiente nivel.
-</p>
+<img src="greeting.svg" width="380" height="50"><br>
+<span style="color: #9CA3AF;">Bienvenido a mi perfil de GitHub</span><br>
+<span style="color: #9CA3AF;">Soy un desarrollador apasionado por la tecnología,</span><br>
+<span style="color: #9CA3AF;">enfocado en crear soluciones reales, aprender siempre y llevar</span><br>
+<span style="color: #9CA3AF;">mis ideas al siguiente nivel.</span>
 
 <br clear="all">
 <br>
