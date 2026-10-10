@@ -16,9 +16,9 @@
 <img align="right" src="resultados_styled.svg" width="120" style="margin-left: 10px;">
 </a>
 
+<h3><strong>👋 Hola, soy Ghers</strong> <img src="line.svg" width="75%" height="2" align="top"></h3>
+
 <p style="color: #9CA3AF;" align="justify">
-<strong><big><big>👋 Hola, soy Ghers</big></big></strong><br>
-<img src="line.svg" width="75%" height="2"><br>
 Bienvenido a mi perfil de GitHub<br>
 Soy un desarrollador apasionado por la tecnología,<br>
 enfocado en crear soluciones reales, aprender siempre y llevar<br>
