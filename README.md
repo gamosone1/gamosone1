@@ -13,10 +13,10 @@
 <td width="60%" valign="top">
 
 <a href="https://github.com/gamosone1">
-<img align="right" src="resultados_styled.svg" width="120" style="margin-left: 10px;">
+<img align="right" src="resultados_styled.svg" width="120" style="margin-top: 30px; margin-left: 10px;">
 </a>
 
-<h3><strong>👋 Hola, soy Ghers</strong> <img src="line.svg" width="75%" height="2" align="top"></h3>
+<h3><strong><u>👋 Hola, soy Ghers</u></strong></h3>
 
 <p style="color: #9CA3AF;" align="justify">
 Bienvenido a mi perfil de GitHub<br>
