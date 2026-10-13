@@ -21,7 +21,7 @@
 Bienvenido a mi perfil de GitHub<br>
 Soy un desarrollador apasionado
 <br> por la tecnología, enfocado en crear<br>
-soluciones reales, aprender <br> siempre y llevar
+soluciones reales, aprender siempre y <br>llevar
 mis ideas
 al siguiente nivel.
 </p>
