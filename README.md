@@ -2,7 +2,10 @@
   <img src="headerBanner.jpg" alt="Banner Gamosone1" width="100%">
 </div>
 
+<br>
+
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr></tr>
 <tr>
 
 <!-- COLUMNA IZQUIERDA -->
