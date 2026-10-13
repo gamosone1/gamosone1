@@ -14,7 +14,7 @@
 <td width="60%" valign="top">
 
 <a href="https://github.com/gamosone1">
-<img align="right" src="resultados_styled.svg" width="120" style="margin-top: 50px; margin-left: 10px;">
+<img align="right" src="resultados_styled.svg" width="120" style="padding-top: 50px; margin-left: 10px;">
 </a>
 
 <h3><strong><u>👋 Hola, soy Ghers</u></strong></h3>
