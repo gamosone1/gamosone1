@@ -13,14 +13,9 @@
 <!-- COLUMNA IZQUIERDA -->
 <td width="60%" valign="top">
 
-<table align="right" border="0" cellpadding="0" cellspacing="0">
-<tr><td><img src="spacer.svg" height="50" width="1"></td></tr>
-<tr><td>
 <a href="https://github.com/gamosone1">
-<img src="resultados_styled.svg" width="120" style="margin-left: 10px;">
+<img align="right" src="resultados_styled.svg" width="120" style="margin-left: 10px;">
 </a>
-</td></tr>
-</table>
 
 <h3><strong><u>👋 Hola, soy Ghers</u></strong></h3>
 
