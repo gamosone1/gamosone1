@@ -1,53 +1,80 @@
-<svg viewBox="0 0 550 200" width="550" height="100%" xmlns="http://www.w3.org/2000/svg">
-<rect width="100%" height="100%" fill="transparent" />
+<svg viewBox="0 0 525 165" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0D1117" rx="12" />
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;display=swap');
-      .titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 18px; fill: #E5E7EB; }
-      .stitle { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 13px; fill: #E5E7EB; }
-      .sdesc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #9CA3AF; }
-      .line { stroke: #1F2937; stroke-width: 2; }
-      .punto { fill: #39FF14; filter: drop-shadow(0px 0px 3px rgba(57,255,20,0.8)); }
-      .neon-text { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; text-anchor: middle;}
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      .card-bg { fill: #0A0F16; stroke: #1F2937; stroke-width: 1.5px; rx: 12px; }
+      .titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 15.5px; fill: #E5E7EB; }
+      .stitle { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 12px; fill: #E5E7EB; text-anchor: middle; }
+      .sdesc { font-family: 'Inter', sans-serif; font-size: 10px; fill: #9CA3AF; text-anchor: middle; }
+      .badge-text { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 8.5px; fill: #39FF14; text-anchor: middle; letter-spacing: 0.5px; }
+      .active-badge-text { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 7.5px; fill: #C084FC; text-anchor: middle; }
+      .mantra-text { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 11px; text-anchor: middle; letter-spacing: 1px; }
     </style>
+    <linearGradient id="camLineH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39FF14" />
+      <stop offset="60%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
   </defs>
-  <text x="0" y="20" font-size="20">🛣️</text>
-  <text x="30" y="18" class="titulo">Mi camino</text>
+
+  <!-- Contenedor principal con borde idéntico al perfil -->
+  <rect class="card-bg" x="5" y="5" width="515" height="155" />
+
+  <!-- Encabezado -->
+  <text x="20" y="32" font-size="18">🛣️</text>
+  <text x="46" y="30" class="titulo">Mi camino</text>
   
-  <!-- Linea del timeline -->
-  <line x1="30" y1="65" x2="520" y2="65" class="line" />
-  
-  <!-- Puntos del timeline -->
-  <circle cx="30" cy="65" r="4" class="punto" />
-  <circle cx="170" cy="65" r="4" class="punto" />
-  <circle cx="310" cy="65" r="4" class="punto" />
-  <circle cx="450" cy="65" r="4" class="punto" />
+  <rect x="415" y="16" width="90" height="20" rx="10" fill="#111827" stroke="#39FF14" stroke-width="1" />
+  <text x="460" y="29" class="badge-text">ROADMAP</text>
 
-  <!-- Textos del timeline -->
-  <text x="30" y="50" font-size="16">🎓</text>
-  <text x="30" y="85" class="stitle">Estudiante</text>
-  <text x="30" y="100" class="sdesc">Cibertec</text>
+  <!-- Línea horizontal del timeline -->
+  <line x1="55" y1="62" x2="465" y2="62" stroke="url(#camLineH)" stroke-width="2.5" stroke-dasharray="4,4" />
 
-  <text x="170" y="50" font-size="16">💼</text>
-  <text x="170" y="85" class="stitle">Prácticas</text>
-  <text x="170" y="100" class="sdesc">Municipalidad</text>
+  <!-- Hito 1: Estudiante -->
+  <g transform="translate(60, 0)">
+    <circle cx="0" cy="62" r="5" fill="#39FF14" filter="drop-shadow(0 0 4px rgba(57,255,20,0.8))" />
+    <text x="0" y="50" font-size="15" text-anchor="middle">🎓</text>
+    <text x="0" y="80" class="stitle">Estudiante</text>
+    <text x="0" y="94" class="sdesc">Cibertec</text>
+  </g>
 
-  <text x="310" y="50" font-size="16">🎯</text>
-  <text x="310" y="85" class="stitle">Enfoque actual</text>
-  <text x="310" y="100" class="sdesc">Laravel + SystemLab</text>
+  <!-- Hito 2: Prácticas -->
+  <g transform="translate(195, 0)">
+    <circle cx="0" cy="62" r="5" fill="#39FF14" filter="drop-shadow(0 0 4px rgba(57,255,20,0.8))" />
+    <text x="0" y="50" font-size="15" text-anchor="middle">💼</text>
+    <text x="0" y="80" class="stitle">Prácticas</text>
+    <text x="0" y="94" class="sdesc">Municipalidad</text>
+  </g>
 
-  <text x="450" y="50" font-size="16">🚀</text>
-  <text x="450" y="85" class="stitle">Metas</text>
-  <text x="450" y="100" class="sdesc">Mi propia empresa</text>
+  <!-- Hito 3: Enfoque actual (Destacado) -->
+  <g transform="translate(330, 0)">
+    <circle cx="0" cy="62" r="9" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.6" />
+    <circle cx="0" cy="62" r="5.5" fill="#A855F7" filter="drop-shadow(0 0 6px rgba(168,85,247,0.9))" />
+    <text x="0" y="50" font-size="15" text-anchor="middle">🎯</text>
+    <text x="0" y="80" class="stitle" fill="#C084FC">Enfoque actual</text>
+    <text x="0" y="94" class="sdesc" fill="#E5E7EB" font-weight="600">Laravel + SystemLab</text>
+    <rect x="-24" y="99" width="48" height="14" rx="3" fill="#2E1065" stroke="#A855F7" stroke-width="0.8" />
+    <text x="0" y="109" class="active-badge-text">ACTUAL</text>
+  </g>
 
-  <!-- SUEÑA > APRENDE > DESARROLLA > LOGRA -->
-  <text x="275" y="160" class="neon-text">
+  <!-- Hito 4: Metas -->
+  <g transform="translate(460, 0)">
+    <circle cx="0" cy="62" r="5" fill="#38BDF8" filter="drop-shadow(0 0 4px rgba(56,189,248,0.8))" />
+    <text x="0" y="50" font-size="15" text-anchor="middle">🚀</text>
+    <text x="0" y="80" class="stitle">Metas</text>
+    <text x="0" y="94" class="sdesc">Mi propia empresa</text>
+  </g>
+
+  <!-- Barra inferior con el lema neón -->
+  <rect x="18" y="122" width="489" height="26" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1" />
+  <text x="262.5" y="139" class="mantra-text">
     <tspan fill="#39FF14">SUEÑA</tspan>
     <tspan fill="#6B7280"> &gt; </tspan>
     <tspan fill="#39FF14">APRENDE</tspan>
     <tspan fill="#6B7280"> &gt; </tspan>
     <tspan fill="#A855F7">DESARROLLA</tspan>
     <tspan fill="#6B7280"> &gt; </tspan>
-    <tspan fill="#39FF14">LOGRA</tspan>
+    <tspan fill="#38BDF8">LOGRA</tspan>
   </text>
 </svg>

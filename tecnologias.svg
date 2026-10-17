@@ -1,65 +1,214 @@
-<svg viewBox="0 0 525 220" width="525" height="100%" xmlns="http://www.w3.org/2000/svg">
-<rect width="100%" height="100%" fill="transparent" />
+<svg viewBox="0 0 525 335" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0D1117" rx="12" />
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
-      .card { fill: #0A0F16; stroke: #1F2937; stroke-width: 1px; rx: 12px; }
-      .seccion-titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; fill: #E5E7EB; }
-      .box-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 14px; }
-      .box-text { font-family: 'Inter', sans-serif; font-size: 10px; fill: #9CA3AF; }
+      .card-bg { fill: #0A0F16; stroke: #1F2937; stroke-width: 1.5px; rx: 12px; }
+      .seccion-titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 15.5px; fill: #E5E7EB; }
+      .tile { fill: #0E141F; rx: 10px; stroke: #1F2937; stroke-width: 1.2px; }
+      .tile-text { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 11px; fill: #E5E7EB; text-anchor: middle; }
+      .badge-text { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 8.5px; fill: #39FF14; text-anchor: middle; letter-spacing: 0.5px; }
     </style>
   </defs>
 
-  <text x="0" y="20" font-size="18">💻</text>
-  <text x="25" y="18" class="seccion-titulo">Tecnologías que uso</text>
+  <!-- Tarjeta contenedora con borde acorde al perfil -->
+  <rect class="card-bg" x="5" y="5" width="515" height="325" />
 
-  <!-- Fila 1 -->
-  <g transform="translate(0, 35)">
-    <rect class="card" x="0" y="0" width="165" height="75" />
-    <text x="10" y="25" font-size="18">☁️</text>
-    <text x="35" y="23" class="box-title" fill="#60A5FA">Backend</text>
-    <text x="10" y="45" class="box-text">Laravel • PHP • Java</text>
-    <text x="10" y="60" class="box-text">Node.js • .NET MVC</text>
+  <!-- Encabezado -->
+  <text x="20" y="34" font-size="18">💻</text>
+  <text x="46" y="32" class="seccion-titulo">Tecnologías que uso</text>
+
+  <rect x="395" y="18" width="110" height="20" rx="10" fill="#111827" stroke="#39FF14" stroke-width="1" />
+  <text x="450" y="31" class="badge-text">16 HERRAMIENTAS</text>
+
+  <!-- ════════════════ FILA 1: Backend & Databases ════════════════ -->
+  <!-- 1. Laravel -->
+  <g transform="translate(19, 48)">
+    <rect class="tile" width="114" height="58" stroke="#EF4444" stroke-opacity="0.6" />
+    <g transform="translate(45, 8)">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#EF4444" stroke-width="1.8" />
+      <line x1="12" y1="5.5" x2="12" y2="18" stroke="#EF4444" stroke-width="1.2" />
+      <line x1="4.5" y1="10" x2="19.5" y2="10" stroke="#EF4444" stroke-width="1.2" />
+    </g>
+    <text x="57" y="47" class="tile-text">Laravel</text>
   </g>
 
-  <g transform="translate(175, 35)">
-    <rect class="card" x="0" y="0" width="165" height="75" />
-    <text x="10" y="25" font-size="18">🖥️</text>
-    <text x="35" y="23" class="box-title" fill="#A855F7">Frontend</text>
-    <text x="10" y="45" class="box-text">HTML • CSS • JS</text>
-    <text x="10" y="60" class="box-text">Thymeleaf • Bootstrap</text>
+  <!-- 2. PHP -->
+  <g transform="translate(142, 48)">
+    <rect class="tile" width="114" height="58" stroke="#8B5CF6" stroke-opacity="0.6" />
+    <g transform="translate(43, 8)">
+      <ellipse cx="14" cy="11" rx="13" ry="9" fill="#4F46E5" stroke="#A78BFA" stroke-width="1.2" />
+      <text x="14" y="15" font-family="'Inter', sans-serif" font-weight="800" font-style="italic" font-size="10" fill="#FFFFFF" text-anchor="middle">php</text>
+    </g>
+    <text x="57" y="47" class="tile-text">PHP</text>
   </g>
 
-  <g transform="translate(350, 35)">
-    <rect class="card" x="0" y="0" width="165" height="75" stroke="#39FF14" stroke-width="2" filter="drop-shadow(0 0 3px rgba(57,255,20,0.4))" />
-    <text x="10" y="25" font-size="18">🛢️</text>
-    <text x="35" y="23" class="box-title" fill="#39FF14">DBs</text>
-    <text x="10" y="45" class="box-text">MySQL • SQL Server</text>
-    <text x="10" y="60" class="box-text">Aiven • Azure</text>
+  <!-- 3. MySQL -->
+  <g transform="translate(265, 48)">
+    <rect class="tile" width="114" height="58" stroke="#06B6D4" stroke-opacity="0.6" />
+    <g transform="translate(45, 8)">
+      <path d="M4 17c2-5 6-9 12-9 2 0 4 1 5 3-2 1-4 1-5 2 2 1 3 2 4 4-2 0-4-.5-5-1-1 3-3 4-6 5-3 1-6 0-8-2 2-1 3-1 3-2z" fill="#06B6D4" />
+      <path d="M12 9c-1-2-1-3 0-4 2 1 3 2 2 4z" fill="#38BDF8" />
+    </g>
+    <text x="57" y="47" class="tile-text">MySQL</text>
   </g>
 
-  <!-- Fila 2 -->
-  <g transform="translate(0, 125)">
-    <rect class="card" x="0" y="0" width="165" height="75" />
-    <text x="10" y="25" font-size="18">🛠️</text>
-    <text x="35" y="23" class="box-title" fill="#F59E0B">Tools</text>
-    <text x="10" y="45" class="box-text">Git • GitHub • Docker</text>
-    <text x="10" y="60" class="box-text">VS Code • Linux</text>
+  <!-- 4. SQL Server -->
+  <g transform="translate(388, 48)">
+    <rect class="tile" width="114" height="58" stroke="#EF4444" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <ellipse cx="11" cy="5" rx="8" ry="3" fill="#B91C1C" />
+      <path d="M3 5v4c0 1.6 3.6 3 8 3s8-1.4 8-3V5" fill="none" stroke="#EF4444" stroke-width="1.3" />
+      <path d="M3 9v4c0 1.6 3.6 3 8 3s8-1.4 8-3V9" fill="none" stroke="#EF4444" stroke-width="1.3" />
+      <path d="M3 13v4c0 1.6 3.6 3 8 3s8-1.4 8-3v-4" fill="none" stroke="#EF4444" stroke-width="1.3" />
+    </g>
+    <text x="57" y="47" class="tile-text">SQL Server</text>
   </g>
 
-  <g transform="translate(175, 125)">
-    <rect class="card" x="0" y="0" width="165" height="75" stroke="#A855F7" stroke-width="2" filter="drop-shadow(0 0 3px rgba(168,85,247,0.4))" />
-    <text x="10" y="25" font-size="18">📦</text>
-    <text x="35" y="23" class="box-title" fill="#EC4899">Otros</text>
-    <text x="10" y="45" class="box-text">XAMPP • Composer</text>
-    <text x="10" y="60" class="box-text">VS • DBeaver</text>
+  <!-- ════════════════ FILA 2: Lenguajes & Frontend ════════════════ -->
+  <!-- 5. Java -->
+  <g transform="translate(19, 114)">
+    <rect class="tile" width="114" height="58" stroke="#F59E0B" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <path d="M3 16h15v2H3z" fill="#F59E0B" />
+      <path d="M5 8v5c0 1.66 1.34 3 3 3h5c1.66 0 3-1.34 3-3V8H5zm13 2h-2v3h2c.55 0 1-.45 1-1v-1c0-.55-.45-1-1-1z" fill="#F59E0B" />
+      <path d="M8 2c.8 1.5-.8 2.5 0 4 M11 1c.8 1.5-.8 2.5 0 5 M14 2c.8 1.5-.8 2.5 0 4" stroke="#FBBF24" stroke-width="1.3" stroke-linecap="round" fill="none" />
+    </g>
+    <text x="57" y="47" class="tile-text">Java</text>
   </g>
 
-  <g transform="translate(350, 125)">
-    <rect class="card" x="0" y="0" width="165" height="75" />
-    <text x="10" y="25" font-size="18">🚀</text>
-    <text x="35" y="23" class="box-title" fill="#3B82F6">Deploy</text>
-    <text x="10" y="45" class="box-text">Azure • App Service</text>
-    <text x="10" y="60" class="box-text">GitHub Actions</text>
+  <!-- 6. C# -->
+  <g transform="translate(142, 114)">
+    <rect class="tile" width="114" height="58" stroke="#A855F7" stroke-opacity="0.6" />
+    <g transform="translate(45, 8)">
+      <polygon points="12,1 22,6.5 22,17.5 12,23 2,17.5 2,6.5" fill="#6B21A8" stroke="#C084FC" stroke-width="1.3" />
+      <text x="12" y="15.5" font-family="'Inter', sans-serif" font-weight="800" font-size="9.5" fill="#FFFFFF" text-anchor="middle">C#</text>
+    </g>
+    <text x="57" y="47" class="tile-text">C#</text>
+  </g>
+
+  <!-- 7. HTML5 -->
+  <g transform="translate(265, 114)">
+    <rect class="tile" width="114" height="58" stroke="#F97316" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <polygon points="3,1 19,1 17.5,17 11,19.5 4.5,17" fill="#EA580C" />
+      <polygon points="11,2.5 17.5,2.5 16,16 11,17.8" fill="#F97316" />
+      <text x="11" y="14" font-family="'Inter', sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle">5</text>
+    </g>
+    <text x="57" y="47" class="tile-text">HTML5</text>
+  </g>
+
+  <!-- 8. CSS3 -->
+  <g transform="translate(388, 114)">
+    <rect class="tile" width="114" height="58" stroke="#3B82F6" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <polygon points="3,1 19,1 17.5,17 11,19.5 4.5,17" fill="#1D4ED8" />
+      <polygon points="11,2.5 17.5,2.5 16,16 11,17.8" fill="#3B82F6" />
+      <text x="11" y="14" font-family="'Inter', sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle">3</text>
+    </g>
+    <text x="57" y="47" class="tile-text">CSS3</text>
+  </g>
+
+  <!-- ════════════════ FILA 3: JS & Tooling ════════════════ -->
+  <!-- 9. JavaScript -->
+  <g transform="translate(19, 180)">
+    <rect class="tile" width="114" height="58" stroke="#EAB308" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <rect x="1" y="1" width="20" height="20" rx="3.5" fill="#FACC15" />
+      <text x="11" y="15.5" font-family="'Inter', sans-serif" font-weight="900" font-size="11" fill="#000000" text-anchor="middle">JS</text>
+    </g>
+    <text x="57" y="47" class="tile-text">JavaScript</text>
+  </g>
+
+  <!-- 10. Git -->
+  <g transform="translate(142, 180)">
+    <rect class="tile" width="114" height="58" stroke="#F97316" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <g transform="translate(11, 11) rotate(45)">
+        <rect x="-7.5" y="-7.5" width="15" height="15" rx="2.5" fill="#EA580C" />
+      </g>
+      <circle cx="8" cy="8" r="1.8" fill="#FFF" />
+      <circle cx="14" cy="8" r="1.8" fill="#FFF" />
+      <circle cx="14" cy="14" r="1.8" fill="#FFF" />
+      <line x1="8" y1="8" x2="14" y2="14" stroke="#FFF" stroke-width="1.3" />
+      <line x1="14" y1="8" x2="14" y2="14" stroke="#FFF" stroke-width="1.3" />
+    </g>
+    <text x="57" y="47" class="tile-text">Git</text>
+  </g>
+
+  <!-- 11. VS Code -->
+  <g transform="translate(265, 180)">
+    <rect class="tile" width="114" height="58" stroke="#0EA5E9" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <path d="M16 2l-5 4.5L6 3.5 2 7l4 3-4 3 4 3.5 5-2.5 5 4.5 4.5-2V4z" fill="#0284C7" />
+      <path d="M16 2l-5 4.5 5 4V2z" fill="#38BDF8" opacity="0.9" />
+      <path d="M16 19.5l-5-4.5 5-4v8.5z" fill="#0369A1" />
+    </g>
+    <text x="57" y="47" class="tile-text">VS Code</text>
+  </g>
+
+  <!-- 12. Docker -->
+  <g transform="translate(388, 180)">
+    <rect class="tile" width="114" height="58" stroke="#0284C7" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <path d="M2 12c1-3 3-3.5 5.5-3.5 1 0 1.8 0 2.5.4 1-1.3 2-2 3.8-2 1 0 1.5.4 1.8.8-1 1-1 1.8-.4 2.8 1.2 1 2 2.2 2 4.5 0 2.8-2.6 5-7.5 5-5 0-8-2.5-8-5.5z" fill="#0284C7" />
+      <rect x="4.5" y="5.5" width="1.8" height="1.8" fill="#38BDF8" rx="0.3" />
+      <rect x="7" y="5.5" width="1.8" height="1.8" fill="#38BDF8" rx="0.3" />
+      <rect x="9.5" y="5.5" width="1.8" height="1.8" fill="#38BDF8" rx="0.3" />
+      <rect x="7" y="3" width="1.8" height="1.8" fill="#38BDF8" rx="0.3" />
+      <rect x="9.5" y="3" width="1.8" height="1.8" fill="#38BDF8" rx="0.3" />
+    </g>
+    <text x="57" y="47" class="tile-text">Docker</text>
+  </g>
+
+  <!-- ════════════════ FILA 4: DevOps, OS & Cloud ════════════════ -->
+  <!-- 13. Linux -->
+  <g transform="translate(19, 246)">
+    <rect class="tile" width="114" height="58" stroke="#FBBF24" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <ellipse cx="11" cy="11.5" rx="6.5" ry="8.5" fill="#18181B" stroke="#FBBF24" stroke-width="0.8" />
+      <ellipse cx="11" cy="13.5" rx="4" ry="5.5" fill="#F4F4F5" />
+      <circle cx="9" cy="8.5" r="1" fill="#000" />
+      <circle cx="13" cy="8.5" r="1" fill="#000" />
+      <polygon points="10,10 12,10 11,11.5" fill="#F59E0B" />
+      <ellipse cx="7.5" cy="19" rx="2.5" ry="1" fill="#F59E0B" />
+      <ellipse cx="14.5" cy="19" rx="2.5" ry="1" fill="#F59E0B" />
+    </g>
+    <text x="57" y="47" class="tile-text">Linux</text>
+  </g>
+
+  <!-- 14. Figma -->
+  <g transform="translate(142, 246)">
+    <rect class="tile" width="114" height="58" stroke="#EC4899" stroke-opacity="0.6" />
+    <g transform="translate(48, 8)">
+      <rect x="2.5" y="1" width="5" height="5" rx="2.5" fill="#F24E1E" />
+      <rect x="7.5" y="1" width="5" height="5" rx="2.5" fill="#FF7262" />
+      <rect x="2.5" y="6" width="5" height="5" rx="2.5" fill="#A259FF" />
+      <circle cx="10" cy="8.5" r="2.5" fill="#1ABCFE" />
+      <path d="M2.5 11h2.5a2.5 2.5 0 0 1 2.5 2.5v0a2.5 2.5 0 0 1-2.5 2.5H2.5z" fill="#0ACF83" />
+    </g>
+    <text x="57" y="47" class="tile-text">Figma</text>
+  </g>
+
+  <!-- 15. Postman -->
+  <g transform="translate(265, 246)">
+    <rect class="tile" width="114" height="58" stroke="#FB923C" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <circle cx="11" cy="11" r="9" fill="#EA580C" />
+      <circle cx="14" cy="8" r="1.8" fill="#FFFFFF" />
+      <path d="M7 8.5l6 2.8-6 2.8 1.4-2.8z" fill="#FFFFFF" />
+      <path d="M11 15.5c1.2-.8 2-2 2.5-3.2" stroke="#FED7AA" stroke-width="1" fill="none" stroke-linecap="round" />
+    </g>
+    <text x="57" y="47" class="tile-text">Postman</text>
+  </g>
+
+  <!-- 16. Azure -->
+  <g transform="translate(388, 246)">
+    <rect class="tile" width="114" height="58" stroke="#38BDF8" stroke-opacity="0.6" />
+    <g transform="translate(46, 8)">
+      <polygon points="11,2 18,17 13,17 11,12 7,17 3.5,17" fill="#0284C7" />
+      <polygon points="11,2 13,17 8.5,17" fill="#38BDF8" opacity="0.85" />
+    </g>
+    <text x="57" y="47" class="tile-text">Azure</text>
   </g>
 </svg>

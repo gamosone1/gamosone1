@@ -1,27 +1,107 @@
-<svg viewBox="0 0 300 350" width="300" height="100%" xmlns="http://www.w3.org/2000/svg">
-<rect width="100%" height="100%" fill="transparent" />
+<svg viewBox="0 0 360 495" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0D1117" rx="12" />
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;display=swap');
-      .titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; fill: #E5E7EB; }
-      .item { font-family: 'Inter', sans-serif; font-size: 14px; fill: #9CA3AF; }
-      .cat-box { fill: #0A0F16; stroke: #A855F7; stroke-width: 2; filter: drop-shadow(0 0 6px rgba(168,85,247,0.6)); rx: 12; }
-      .cat-text { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 24px; fill: #A855F7; text-anchor: middle;}
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      .titulo { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 14.5px; fill: #E5E7EB; }
+      .item { font-family: 'Inter', sans-serif; font-size: 12px; fill: #E5E7EB; font-weight: 600; }
+      .sub { fill: #9CA3AF; font-weight: 400; font-size: 11px; }
+      .check { fill: #39FF14; font-size: 13px; font-weight: 800; filter: drop-shadow(0 0 3px rgba(57,255,20,0.8)); }
+      .badge-blue { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 8.5px; fill: #60A5FA; text-anchor: middle; letter-spacing: 0.5px; }
+      .badge-uni { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 7.5px; fill: #38BDF8; text-anchor: middle; letter-spacing: 0.5px; }
+      .badge-green { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 8.5px; fill: #39FF14; text-anchor: middle; letter-spacing: 0.5px; }
+      .course-card { fill: #0A1628; stroke: #0284C7; stroke-width: 1.2px; stroke-opacity: 0.75; rx: 8px; }
+      .course-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 10.5px; fill: #F0F9FF; }
+      .course-sub { font-family: 'Inter', sans-serif; font-size: 9px; fill: #94A3B8; }
+      .badge-status { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 7.5px; fill: #34D399; text-anchor: middle; }
     </style>
   </defs>
-  
-  <!-- Cat Box Neón (Simulación del gatito) -->
-  <rect class="cat-box" x="10" y="10" width="280" height="150" />
-  <text x="150" y="60" class="cat-text" style="filter: drop-shadow(0 0 4px #A855F7);">TÚ PUEDES</text>
-  <text x="150" y="95" class="cat-text">&lt;/&gt;</text>
-  <text x="150" y="140" font-size="45" text-anchor="middle">🐈‍⬛</text>
 
-  <!-- Actualmente Explorando -->
-  <text x="10" y="210" class="titulo">Actualmente explorando</text>
+  <!-- Tarjeta contenedora única unificada -->
+  <rect x="5" y="5" width="350" height="485" rx="12" fill="#0A0F16" stroke="#1F2937" stroke-width="1.5" />
+
+  <!-- ════════════ SECCIÓN 1: Actualmente aprendiendo ════════════ -->
+  <text x="20" y="34" font-size="17">🎓</text>
+  <text x="45" y="32" class="titulo">Actualmente aprendiendo</text>
   
-  <text x="10" y="240" font-size="14">❤️</text><text x="35" y="240" class="item">Laravel 12</text>
-  <text x="10" y="265" font-size="14">⚛️</text><text x="35" y="265" class="item">Vue.js / React</text>
-  <text x="10" y="290" font-size="14">🐳</text><text x="35" y="290" class="item">Azure / Docker</text>
-  <text x="10" y="315" font-size="14">🎮</text><text x="35" y="315" class="item">FiveM / NUI</text>
-  <text x="10" y="340" font-size="14">🤖</text><text x="35" y="340" class="item">IA y automatización</text>
+  <rect x="250" y="18" width="90" height="20" rx="10" fill="#111827" stroke="#3B82F6" stroke-width="1" />
+  <text x="295" y="31" class="badge-blue">EN FORMACIÓN</text>
+
+  <!-- Ítems aprendiendo (Java, .NET, Spring) -->
+  <g transform="translate(0, 0)">
+    <text x="24" y="61" class="check">✔</text>
+    <text x="46" y="61" class="item">Java <tspan class="sub">(POO)</tspan></text>
+  </g>
+
+  <g transform="translate(0, 24)">
+    <text x="24" y="61" class="check">✔</text>
+    <text x="46" y="61" class="item">.NET MVC <tspan class="sub">(C#)</tspan></text>
+  </g>
+
+  <g transform="translate(0, 48)">
+    <text x="24" y="61" class="check">✔</text>
+    <text x="46" y="61" class="item">Thymeleaf + JPA <tspan class="sub">(Spring Boot)</tspan></text>
+  </g>
+
+  <!-- ── Subsección: Cursos Certificados CTIC UNI (Destacados) ── -->
+  <g transform="translate(0, 132)">
+    <text x="20" y="16" font-size="14">🛡️</text>
+    <text x="42" y="15" font-family="'Inter', sans-serif" font-weight="800" font-size="11.5" fill="#38BDF8">Cursos Certificados UNI</text>
+    
+    <rect x="246" y="3" width="94" height="18" rx="9" fill="#082F49" stroke="#0284C7" stroke-width="1" />
+    <text x="293" y="15" class="badge-uni">CIBERSEGURIDAD</text>
+  </g>
+
+  <!-- Tarjeta Curso 1: Pentesting Web (C|PW) -->
+  <g transform="translate(18, 158)">
+    <rect class="course-card" width="324" height="52" filter="drop-shadow(0 0 4px rgba(2,132,199,0.25))" />
+    <text x="12" y="27" font-size="16">🌐</text>
+    <text x="36" y="22" class="course-title">PIT730 Pentesting Web <tspan fill="#38BDF8">(C|PW)</tspan></text>
+    <text x="36" y="39" class="course-sub">CTIC UNI · PIT 2026 (11.ª Edición)</text>
+    
+    <rect x="250" y="17" width="64" height="17" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="0.8" />
+    <text x="282" y="29" class="badge-status">EN CURSO</text>
+  </g>
+
+  <!-- Tarjeta Curso 2: Pentesting y Técnicas de Ataque (C|PTA) -->
+  <g transform="translate(18, 218)">
+    <rect class="course-card" width="324" height="52" filter="drop-shadow(0 0 4px rgba(2,132,199,0.25))" />
+    <text x="12" y="27" font-size="16">⚔️</text>
+    <text x="36" y="22" class="course-title">PIT731 Pentesting &amp; Ataque <tspan fill="#38BDF8">(C|PTA)</tspan></text>
+    <text x="36" y="39" class="course-sub">CTIC UNI · PIT 2026 (11.ª Edición)</text>
+    
+    <rect x="250" y="17" width="64" height="17" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="0.8" />
+    <text x="282" y="29" class="badge-status">EN CURSO</text>
+  </g>
+
+  <!-- Línea divisoria elegante -->
+  <line x1="20" y1="288" x2="340" y2="288" stroke="#1F2937" stroke-width="1.2" stroke-dasharray="4,4" />
+
+  <!-- ════════════ SECCIÓN 2: En qué estoy trabajando ════════════ -->
+  <text x="20" y="318" font-size="17">🎯</text>
+  <text x="45" y="316" class="titulo">En qué estoy trabajando</text>
+  
+  <rect x="250" y="302" width="90" height="20" rx="10" fill="#111827" stroke="#39FF14" stroke-width="1" />
+  <text x="295" y="315" class="badge-green">PROYECTOS</text>
+
+  <!-- Ítem 1: SystemLab SaaS -->
+  <g transform="translate(0, 0)">
+    <text x="24" y="347" class="check">✔</text>
+    <text x="46" y="347" class="item">Sistema SaaS para consultorios y clínicas</text>
+    <text x="46" y="364" class="item"><tspan class="sub" fill="#39FF14" font-weight="700">(SystemLab - Odonto)</tspan></text>
+  </g>
+
+  <!-- Ítem 2: Sistema de RR.HH Municipalidad (NUEVO) -->
+  <g transform="translate(0, 46)">
+    <text x="24" y="347" class="check">✔</text>
+    <text x="46" y="347" class="item">Sistema de RR.HH para Institución Pública</text>
+    <text x="46" y="364" class="item"><tspan class="sub" fill="#38BDF8" font-weight="700">- Municipalidad</tspan></text>
+  </g>
+
+  <!-- Ítem 3: Mejora continua -->
+  <g transform="translate(0, 92)">
+    <text x="24" y="347" class="check">✔</text>
+    <text x="46" y="347" class="item">Mejorar mis habilidades en Laravel,</text>
+    <text x="46" y="364" class="item">PHP y bases de datos.</text>
+  </g>
 </svg>
