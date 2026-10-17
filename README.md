@@ -5,10 +5,11 @@
 <br>
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr>
+<tr></tr>
+<tr bgcolor="#161b22">
 
 <!-- COLUMNA IZQUIERDA -->
-<td width="55%" valign="top">
+<td width="55%" valign="top" bgcolor="#161b22">
 
 <a href="https://github.com/gamosone1" target="_blank">
 <img align="right" src="resultados_styled.svg" width="140">
@@ -31,7 +32,7 @@ Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones
 </td>
 
 <!-- COLUMNA DERECHA -->
-<td width="45%" valign="top" align="center">
+<td width="45%" valign="top" align="center" bgcolor="#161b22">
 
 <div align="center">
 <img src="right_panel.svg" width="100%">
@@ -46,6 +47,7 @@ Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones
 <h2 align="center">🚀 PROYECTOS DESTACADOS</h2>
 
 <table width="100%">
+<tr></tr>
 <tr bgcolor="#161b22">
 <!-- PROYECTO 1: SYSTEMLAB SAAS -->
 <td align="center" width="50%" valign="top" bgcolor="#161b22">
