@@ -16,7 +16,7 @@
 
 <h3><strong><u>👋 Hola, soy Ghers</u></strong></h3>
 
-<p align="justify">
+<p style="color: #9CA3AF;" align="justify">
 Bienvenido a mi perfil de GitHub.<br>
 Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones reales, aprender continuamente y llevar mis ideas al siguiente nivel.
 </p>
@@ -46,9 +46,9 @@ Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones
 <h2 align="center">🚀 PROYECTOS DESTACADOS</h2>
 
 <table width="100%">
-<tr>
+<tr bgcolor="#161b22">
 <!-- PROYECTO 1: SYSTEMLAB SAAS -->
-<td align="center" width="50%" valign="top">
+<td align="center" width="50%" valign="top" bgcolor="#161b22">
 <h3>🦷 SystemLab · SaaS en Producción</h3>
 <a href="https://www.systemlab.com.pe" target="_blank">
 <img src="systemlab.png" alt="SystemLab SaaS Odontológico" width="100%">
@@ -58,7 +58,7 @@ Soy un desarrollador apasionado por la tecnología, enfocado en crear soluciones
 <a href="https://www.systemlab.com.pe" target="_blank"><img src="https://img.shields.io/badge/EN%20PRODUCCI%C3%93N-22C55E?style=for-the-badge&logo=statuspage&logoColor=white" alt="En Producción"></a>
 <img src="https://img.shields.io/badge/MULTI--TENANT-181717?style=for-the-badge&logo=laravel&logoColor=white" alt="Multi-Tenant">
 <br><br>
-<p align="justify">
+<p style="color: #9CA3AF;" align="justify">
 Plataforma SaaS integral orientada a la digitalización y gestión clínica de consultorios odontológicos. Incluye control de pacientes, agenda de citas interactiva por consultorio, odontograma, catálogo y evolución de tratamientos y módulo de cobros con estricta segregación de datos entre clínicas.
 </p>
 <br>
@@ -78,7 +78,7 @@ Plataforma SaaS integral orientada a la digitalización y gestión clínica de c
 </td>
 
 <!-- PROYECTO 2: FIVEM LUA SERVER -->
-<td align="center" width="50%" valign="top">
+<td align="center" width="50%" valign="top" bgcolor="#161b22">
 <h3>🎮 PeruSalen Roleplay · Servidor FiveM & Scripts Lua</h3>
 <a href="#video-demo">
 <img src="gitgitgif.gif" alt="Servidor FiveM & Scripts Lua - PeruSalen" width="100%">
@@ -88,7 +88,7 @@ Plataforma SaaS integral orientada a la digitalización y gestión clínica de c
 <img src="https://img.shields.io/badge/LUA%20DEV-000080?style=for-the-badge&logo=lua&logoColor=white" alt="Lua">
 <img src="https://img.shields.io/badge/FIVEM-F37021?style=for-the-badge&logo=fivem&logoColor=white" alt="FiveM">
 <br><br>
-<p align="justify">
+<p style="color: #9CA3AF;" align="justify">
 Desarrollo integral de servidor GTA V Roleplay (PeruSalen) y creación de scripts avanzados programados en <b>Lua</b>. Incluye sistema propio de inventario interactivo con interfaz NUI reactiva, armas/ítems custom (katanas, alas funcionales de vuelo), mecánicas de rol y optimización extrema de recursos.
 </p>
 <br>
@@ -118,11 +118,7 @@ Desarrollo integral de servidor GTA V Roleplay (PeruSalen) y creación de script
 <!-- ══════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <a href="https://www.systemlab.com.pe" target="_blank">
-    <img src="https://img.shields.io/badge/Web%20Oficial-www.systemlab.com.pe-0A7C66?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web">
-  </a>
-  <a href="https://github.com/gamosone1">
-    <img src="https://img.shields.io/badge/GitHub-gamosone1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
+  <a href="https://www.systemlab.com.pe" target="_blank"><img src="https://img.shields.io/badge/Web%20Oficial-www.systemlab.com.pe-0A7C66?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web"></a>
+  <a href="https://github.com/gamosone1"><img src="https://img.shields.io/badge/GitHub-gamosone1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/LinkedIn-En%20proceso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </p>
